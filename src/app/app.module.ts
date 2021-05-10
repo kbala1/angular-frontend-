@@ -9,7 +9,8 @@ import { HomeComponent } from './home/home.component';
 import {SignupComponent} from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { CategoriesComponent } from './categories/categories.component';
-import { LogoutComponent } from './services/user/logout/logout.component';
+import { LogoutComponent } from './logout/logout.component';
+
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { LogoutComponent } from './services/user/logout/logout.component';
     CategoriesComponent,
     LogoutComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
