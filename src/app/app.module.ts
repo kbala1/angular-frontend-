@@ -10,6 +10,7 @@ import {SignupComponent} from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { LogoutComponent } from './logout/logout.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { LogoutComponent } from './logout/logout.component';
     SignupComponent,
     LoginComponent,
     CategoriesComponent,
-    LogoutComponent
+    LogoutComponent,
+    CategoryComponent
   ],
 
   imports: [
